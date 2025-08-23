@@ -5,6 +5,8 @@ On the Login Page, users can enter their Full Name, Email Address, and Password.
 
 In terms of design, I emphasized simplicity and clarity. The layout is centered for better alignment, with input fields and the login button neatly positioned inside a styled card. To enhance the interface, I included hover effects, which make the input fields pop out slightly when hovered over, improving interactivity and engagement. Additionally, I placed an image on the right side of the container for balance, ensuring it fits properly without zooming in excessively by using CSS properties like object-fit: contain.
 One important design decision was keeping the background minimal to maintain focus on the login card. However, I also considered adding gradient backgrounds or subtle patterns in future versions to make the interface more dynamic.
+index page - /src/app/page.js
+home page - /src/app/home/page.js
 If I were to extend this project, I would implement Tailwind CSS for styling. Tailwind would simplify the process of creating modern, responsive designs with utility classes, reducing the need for writing extensive custom CSS. It would also speed up future design iterations.
 =======
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
