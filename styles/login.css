@@ -65,8 +65,8 @@ margin-top: 190px; flex-direction: row;
 
 .card-right img {
   width: 100%;
-  height: 100%;       /* 👈 keeps image full height */
-  object-fit: cover;  /* prevents stretching */
+  height: 100%;      
+  object-fit: cover; 
 }
 
 
@@ -89,15 +89,15 @@ border-color: #0c0c0a;
 }
 .card1 {
   display: flex;
-  flex-direction: column;   /* stack vertically */
-  justify-content: center;  /* center vertically if needed */
-  align-items: center;      /* ✅ center all children horizontally */
+  flex-direction: column;  
+  justify-content: center; 
+  align-items: center;      
   text-align: center;
-  width: 120%;              /* make sure it spans fully */
+  width: 120%;             
 }
 
 .card1 button {
-  width: 200px;             /* fixed size */
+  width: 200px;            
   padding: 12px;
   background-color: #1347d6;
   color: #fff;
@@ -106,7 +106,7 @@ border-color: #0c0c0a;
   border-radius: 6px;
   cursor: pointer;
   margin-top: 20px;
-  margin-bottom: 20px;         /* just spacing above */
+  margin-bottom: 20px;        
 }
 
 
